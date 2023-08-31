@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        input{
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            text-align-last: center;
+            border-radius: 50%;
+            border: transparent;
+        }
+
+      
+    </style>
+</head>
+<body>
+   
+<div class="content">
+    <h1>Sales ends in</h1>
+    <h1 id="date"> </h1>
+    <div class="time">
+        <input id="days" type="text" readonly value="0"><label for="">days</label>
+        <input type="text"readonly value="0"><label for="">hours</label>
+        <input type="text"readonly value="0"><label for="">minutes</label>
+        <input type="text"readonly value="0"><label for="">seconds</label>
+    </div>
+   
+</div>
+<script src="./countdown.js"></script>
+    
+</body>
+</html>
